@@ -51,7 +51,7 @@ public class KeyboardServiceTest {
     public void keypadWithLetter() {
         //Given
         String code = "123";
-        String keypad = "";
+        String keypad = "853147f9";
 
         //When
         keyboardService.entryTime(code, keypad);
